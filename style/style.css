@@ -1,0 +1,44 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.media-sampleimg {
+    filter: drop-shadow(20px 20px 15px #575757);
+}
+.introText, .moreAboutText {
+    margin-top: 100px;
+    font-size: 100px !important;
+}
+
+.myworkstext {
+    margin-top: 50px;
+    font-size: 100px !important;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-center {
+    padding: 10%;
+    border-radius: 100px;
+    filter: drop-shadow(30px 30px 15px #262627);
+}
+
+@media only screen and (max-width: 767px) {
+    .profile-center {
+        width: 100% !important;
+    }
+    .introText, .moreAboutText, .myworkstext {
+        font-size: 50px !important;
+    }
+    .introText, .myworkstext, .moreAboutText {
+        margin-top: 0 !important;
+    }
+    .media-logo {
+        width: 15% !important;
+    }
+}
